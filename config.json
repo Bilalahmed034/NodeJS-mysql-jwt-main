@@ -1,0 +1,36 @@
+﻿{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "your user name ",
+        "password": "your password",
+        "database": "your datebase name"
+    },
+    "databaseProduction": {
+        "host": "your live host",
+        "user": "your user",
+        "password": "your password",
+        "port": "your port number",
+        "database": "your datebase name",
+        "sslmode": "REQUIRED"
+    },
+    "databaseDevelopment": {
+        "host": "your live host",
+        "user": "your user",
+        "password": "your password",
+        "port": "your port number",
+        "database": "your datebase name",
+        "sslmode": "REQUIRED"
+    },
+    "secret": "thisissecretekey",
+    "emailFrom": "ABC abc@mail.com",
+    "smtpOptions": {
+        "host": "your mail host",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "user": "user name ",
+            "pass": "passord"
+        }
+    }
+}
